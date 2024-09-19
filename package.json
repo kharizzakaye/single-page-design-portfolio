@@ -1,0 +1,14 @@
+{
+  "name": "single-page-design-portfolio",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch sass/styles.scss:css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.79.1"
+  }
+}
