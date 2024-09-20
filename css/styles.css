@@ -75,6 +75,9 @@ body {
   grid-row: 1/3;
   background-color: #755cde;
 }
+#skills-section .skills-container .graphic-design-card span {
+  margin-top: 90px;
+}
 #skills-section .skills-container .ux-ui-card {
   grid-column: 3/4;
   grid-row: 2/1;
@@ -89,6 +92,9 @@ body {
   grid-column: -5/-3;
   grid-row: 2/3;
   background-color: #eb7565;
+}
+#skills-section .skills-container .illustrations-card span {
+  margin-top: 110px;
 }
 #skills-section .skills-container .photography-card {
   grid-column: 5/7;
@@ -165,6 +171,7 @@ body {
 }
 #contact-section .btn-consultation {
   float: right;
+  margin-top: 60px;
 }
 
 #footer-section {

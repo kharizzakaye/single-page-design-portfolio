@@ -69,7 +69,6 @@ body {
         span {
             font-weight: 700;
             font-size: 24px;
-            // line-height: 30px;
             color: $white;
             float: left;
             padding: 24px;
@@ -88,6 +87,10 @@ body {
             grid-column: 1/3;
             grid-row: 1/3;
             background-color: $galactic-blue;
+
+            span {
+                margin-top: 90px;
+            }
         }
 
         .ux-ui-card {
@@ -106,6 +109,10 @@ body {
             grid-column: -5/-3;
             grid-row: 2/3;
             background-color: $light-red;
+
+            span {
+                margin-top: 110px;
+            }
         }
 
         .photography-card {
@@ -198,6 +205,7 @@ body {
 
     .btn-consultation {
         float: right;
+        margin-top: 60px;
     }
 }
 
