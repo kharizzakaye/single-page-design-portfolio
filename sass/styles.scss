@@ -9,6 +9,10 @@ body {
     margin: 0 auto; // center element horizontally
 }
 
+.container {
+    max-width: 1150px;
+}
+
 // Button
 .btn-consultation {
     color: $white;
@@ -131,8 +135,12 @@ body {
 
 
 #designer-section {
-    img {
-        width: 450px;
+    // img {
+    //     width: 450px;
+    // }
+
+    #designer-text {
+        padding-left: 100px;
     }
 
     h2  {
@@ -240,7 +248,7 @@ body {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+    
 }
 
 // X-Large devices (large desktops, 1200px and up)

@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1150px;
+}
+
 .btn-consultation {
   color: #FFFFFF;
   font-weight: 700;
@@ -107,8 +111,8 @@ body {
   background-color: #552042;
 }
 
-#designer-section img {
-  width: 450px;
+#designer-section #designer-text {
+  padding-left: 100px;
 }
 #designer-section h2 {
   font-weight: 700;
