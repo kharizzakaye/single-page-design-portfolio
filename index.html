@@ -7,11 +7,12 @@
 
         <title>Single-page design portfolio</title>
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
-        <div class="container">
+        <div class="container-lg">
             <header class="logo-container" id="header-section">
                 <img src="/assets/logo.svg" alt="">
 
@@ -21,7 +22,7 @@
             </header>
 
             <main>
-                <section id="skills-section">
+                <section id="skills-section" class="text-center">
                     <h1>Design solutions made easy</h1>
                     <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
 
@@ -58,11 +59,11 @@
                     </div>
                 </section>
 
-                <section id="designer-section">
-                    <div id="designer-image">
+                <section id="designer-section" class="row">
+                    <div id="designer-image" class="col-xl-5">
                         <img class="img-fluid" src="./assets/image-amy.webp" alt="">
                     </div>
-                    <div id="designer-text">
+                    <div id="designer-text" class="col-xl-7">
                         <h2>I’m Amy, and I’d love to work on your next project</h2>
                         <p>
                             I love working with others to create beautiful design solutions. 
@@ -73,34 +74,38 @@
                         <button class="btn-consultation">Free Consultation</button>
                     </div>
                 </section>
-                <!-- 
+                
                 <section id="works-section">
-                    <h2>My Work</h2>
+                    <h2 class="text-center">My Works</h2>
 
-                    div id="gallery-section">
-                        <img id="gallery-item-1" class="slide active" src="./assets/image-slide-1.jpg" alt="">
-                        <img id="gallery-item-2" class="slide active" src="./assets/image-slide-2.jpg" alt="">
-                        <img id="gallery-item-3" class="slide active" src="./assets/image-slide-3.jpg" alt="">
-                        <img id="gallery-item-4" class="slide" src="./assets/image-slide-4.jpg" alt="">
-                        <img id="gallery-item-5" class="slide" src="./assets/image-slide-5.jpg" alt="">
+                    <div id="gallery-section" class="row">
+                        <img id="gallery-item-1" class="col-xl-4 slide active" src="./assets/image-slide-1.jpg" alt="">
+                        <img id="gallery-item-2" class="col-xl-4 slide active" src="./assets/image-slide-2.jpg" alt="">
+                        <img id="gallery-item-3" class="col-xl-4 slide active" src="./assets/image-slide-3.jpg" alt="">
+                        <img id="gallery-item-4" class="col-xl-4 slide" src="./assets/image-slide-4.jpg" alt="">
+                        <img id="gallery-item-5" class="col-xl-4 slide" src="./assets/image-slide-5.jpg" alt="">
                     </div>
-                    <div id="gallery-arrows">
-                        <img id="arrow-previous" src="./assets/icon-arrow-left.svg" alt="arrow">
-                        <img id="arrow-next" src="./assets/icon-arrow-right.svg" alt="arrow">
+                    <div id="gallery-arrows" class="text-center">
+                        <img class="arrow" id="arrow-previous" src="./assets/icon-arrow-left.svg" alt="arrow">
+                        <img class="arrow" id="arrow-next" src="./assets/icon-arrow-right.svg" alt="arrow">
                     </div>
                 </section>
 
-                <section id="contact-section">
-                    <h2>Book a call with me</h2>
+                <section id="contact-section" class="row">
+                    <div id="contact-text" class="col-xl-7">
+                        <h2>Book a call with me</h2>
 
-                    <p>
-                        I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
-                        during
-                        a free consultation. Then we can move forward from there.
-                    </p>
+                        <p>
+                            I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
+                            during
+                            a free consultation. Then we can move forward from there.
+                        </p>
+                    </div>
 
-                    <button class="btn-consultation">Free Consultation</button>
-                </section> -->
+                    <div id="btn-container"  class="col-xl-5">
+                        <button class="btn-consultation">Free Consultation</button>
+                    </div>
+                </section> 
             </main>
 
             <footer class="logo-container" id="footer-section">
@@ -112,5 +117,6 @@
             </footer>    
         </div>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
