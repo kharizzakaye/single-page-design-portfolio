@@ -5,105 +5,112 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-        <link rel="stylesheet" href="./css/main.css">
-
         <title>Single-page design portfolio</title>
+
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
-        <header>
-            <div><img src="./assets/logo.svg" alt=""></div>
-            <div><button class="btn btn-black">Free Consultation</button></div>
-        </header>
+        <div class="container">
+            <header class="logo-container" id="header-section">
+                <img src="/assets/logo.svg" alt="">
 
-        <main>
-            <section>
-                <h1>Design solutions made easy</h1>
+                <button class="btn btn-consultation">
+                    Free Consultation
+                </button>
+            </header>
 
-                <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+            <main>
+                <section id="skills-section">
+                    <h1>Design solutions made easy</h1>
+                    <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
 
-                <div class="grid_container">
-                    <div class="box box_graphicdesign">
-                        <img src="./assets/pattern-graphic-design.svg" alt=""><span>Graphic Design</span>
+                    <div class="skills-container">
+                        <div class="skill graphic-design-card">
+                            <img src="./assets/pattern-graphic-design.svg" alt="">
+                            <span>Graphic Design</span>
+                        </div>
+
+                        <div class="skill ux-ui-card">
+                            <img src="./assets/pattern-ui-ux.svg" alt="">
+                            <span>UI/UX</span>
+                        </div>
+
+                        <div class="skill apps-card">
+                            <img src="./assets/pattern-apps.svg" alt="">
+                            <span>Apps</span>
+                        </div>
+
+                        <div class="skill illustrations-card">
+                            <img src="./assets/pattern-illustrations.svg"alt="">
+                            <span>Illustrations</span>
+                        </div>
+
+                        <div class="skill photography-card">
+                            <img src="./assets/pattern-photography.svg" alt="">
+                            <span>Photography</span>
+                        </div>
+
+                        <div class="skill motion-graphics-card">
+                            <img src="./assets/pattern-motion-graphics.svg" alt="">
+                            <span>Motion Graphics</span>
+                        </div>
                     </div>
+                </section>
 
-                    <div class="box box_uiux">
-                        <img src="./assets/pattern-ui-ux.svg" alt=""><span>UI/UX</span>
+                <section id="designer-section">
+                    <div id="designer-image">
+                        <img class="img-fluid" src="./assets/image-amy.webp" alt="">
                     </div>
-
-                    <div class="box box_apps"><img src="./assets/pattern-apps.svg" alt="">
-                        <span>Apps</span>
-                    </div>
-
-                    <div class="box box_photography"><img src="./assets/pattern-photography.svg" alt="">
-                        <span>Photography</span>
-                    </div>
-
-                    <div class="box box_illustrations">
-                        <img src="./assets/pattern-illustrations.svg"alt=""><span>Illustrations</span>
-                    </div>
-
-                    <div class="box box_motiongraphic">
-                        <img src="./assets/pattern-motion-graphics.svg" alt=""><span>Motion Graphics</span>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="person_section">
-                    <div class="person_image">
-                        <img src="./assets/image-amy.webp" width="445" alt="">
-                    </div>
-
-                    <div class="person_description">
+                    <div id="designer-text">
                         <h2>I’m Amy, and I’d love to work on your next project</h2>
-                        <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand
-                            illustrations to complete mobile apps. I’m also handy with a camera!</p>
-                        <button class="btn btn-lightred">Free Consultation</button>
+                        <p>
+                            I love working with others to create beautiful design solutions. 
+                            I’ve designed everything from brand illustrations to complete mobile apps. 
+                            I’m also handy with a camera!
+                        </p>
+
+                        <button class="btn-consultation">Free Consultation</button>
                     </div>
-                </div>
-            </section>
+                </section>
+                <!-- 
+                <section id="works-section">
+                    <h2>My Work</h2>
 
-            <section>
-                <h3>My Work</h3>
-
-                <div id="gallery" class="gallery">
-                    <img id="slide1" class="slide active" src="./assets/image-slide-1.jpg" alt="">
-                    <img id="slide2" class="slide active" src="./assets/image-slide-2.jpg" alt="">
-                    <img id="slide3" class="slide active" src="./assets/image-slide-3.jpg" alt="">
-                    <img id="slide4" class="slide" src="./assets/image-slide-4.jpg" alt="">
-                    <img id="slide5" class="slide" src="./assets/image-slide-5.jpg" alt="">
-                </div>
-                <div class="arrows">
-                    <img class="arrow_left" src="./assets/icon-arrow-left.svg" alt="arrow">
-                    <img class="arrow_right" src="./assets/icon-arrow-right.svg" alt="arrow">
-                </div>
-            </section>
-
-            <section class="contact_container">
-                <div class="contact">
-                    <div class="book_call">
-                        <h2>Book a call with me</h2>
-                        <p>I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
-                            during
-                            a free consultation. Then we can move forward from there.</p>
+                    div id="gallery-section">
+                        <img id="gallery-item-1" class="slide active" src="./assets/image-slide-1.jpg" alt="">
+                        <img id="gallery-item-2" class="slide active" src="./assets/image-slide-2.jpg" alt="">
+                        <img id="gallery-item-3" class="slide active" src="./assets/image-slide-3.jpg" alt="">
+                        <img id="gallery-item-4" class="slide" src="./assets/image-slide-4.jpg" alt="">
+                        <img id="gallery-item-5" class="slide" src="./assets/image-slide-5.jpg" alt="">
                     </div>
-                    <div class="button_call">
-                        <button class="btn btn-lightred">Free Consultation</button>
+                    <div id="gallery-arrows">
+                        <img id="arrow-previous" src="./assets/icon-arrow-left.svg" alt="arrow">
+                        <img id="arrow-next" src="./assets/icon-arrow-right.svg" alt="arrow">
                     </div>
-                </div>
-            </section>
-        </main>
+                </section>
 
-        <footer>
-            <div>
-                <img src="./assets/logo.svg" alt="">
-            </div>
-            <div>
-                <button class="btn btn-black">Free Consultation</button>
-            </div>
-        </footer>
+                <section id="contact-section">
+                    <h2>Book a call with me</h2>
+
+                    <p>
+                        I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project
+                        during
+                        a free consultation. Then we can move forward from there.
+                    </p>
+
+                    <button class="btn-consultation">Free Consultation</button>
+                </section> -->
+            </main>
+
+            <footer class="logo-container" id="footer-section">
+                <img src="/assets/logo.svg" alt="">
+
+                <button class="btn btn-consultation">
+                    Free Consultation
+                </button>
+            </footer>    
+        </div>
+
     </body>
-
 </html>
