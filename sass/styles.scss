@@ -47,7 +47,7 @@ body {
 
 #skills-section {
     h1 {
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 700;
         color: $black;
         margin-top: 80px;
@@ -62,8 +62,8 @@ body {
 
     .skills-container {
         display: grid;
-        margin-top: 90px;
-        margin-bottom: 150px;
+        margin-top: 50px;
+        margin-bottom: 100px;
         grid-template-columns: auto;
         grid-template-rows: repeat(5, auto);
         width: 100%;
@@ -127,12 +127,16 @@ body {
 
 
 #designer-section {
-    // img {
-    //     width: 450px;
-    // }
+    #designer-image {
+        text-align: center;
+    }
+
+    img {
+        width: 450px;
+    }
 
     #designer-text {
-        padding-left: 100px;
+        padding-left: 20px;
     }
 
     h2  {
@@ -141,14 +145,19 @@ body {
         color: $black;
         padding-bottom: 34px;
         margin-top: 70px;
+        text-align: center;
     }
 
     p {
         font-weight: 500;
         font-size: 18px;
         color: $medium_brown;
-        text-align: left;
+        text-align: center;
         margin-bottom: 32px;
+    }
+
+    .btn-container {
+        text-align: center;
     }
 }
 
@@ -197,15 +206,20 @@ body {
         font-weight: 700;
         font-size: 40px;
         margin-bottom: 30px;
+        text-align: center;
     }
 
     p {
         font-size: 18px;
+        text-align: center;
     }
 
     .btn-consultation {
-        float: right;
-        margin-top: 60px;
+        margin-top: 30px;
+    }
+
+    #btn-container {
+        text-align: center;
     }
 }
 
@@ -229,7 +243,15 @@ body {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #skills-section {
+        h1 {
+            font-size: 50px;
+            margin-top: 80px;
+            margin-bottom: 20px;
+        }
+
         .skills-container {
+            margin-top: 70px;
+            margin-bottom: 100px;
             grid-template-columns: auto;
             grid-template-rows: repeat(3, auto);
 
@@ -264,6 +286,23 @@ body {
             }
         }
     }
+
+    #designer-section {
+        #designer-text {
+            // padding-left: 100px;
+        }
+
+        h2  {
+            font-size: 40px;
+            padding-bottom: 34px;
+            margin-top: 70px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 32px;
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -288,18 +327,12 @@ body {
     #skills-section {
         h1 {
             font-size: 55px;
-            font-weight: 700;
-            margin-top: 80px;
             margin-bottom: 25px;
         }
 
-        p {
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-
         .skills-container {
+            margin-top: 90px;
+            margin-bottom: 150px;
             grid-template-columns: repeat(6, auto);
             grid-template-rows: repeat(2, auto);
 
@@ -344,21 +377,24 @@ body {
 
     #designer-section {
         #designer-text {
-            padding-left: 100px;
+            padding-left: 10px;
         }
 
         h2  {
-            font-weight: 700;
             font-size: 40px;
             padding-bottom: 34px;
-            margin-top: 70px;
+            margin-top: 40px;
+            text-align: left;
         }
 
         p {
-            font-weight: 500;
             font-size: 18px;
-            text-align: left;
             margin-bottom: 32px;
+            text-align: left;
+        }
+
+        .btn-container {
+            text-align: left;
         }
     }
 
@@ -400,13 +436,11 @@ body {
         margin: 80px 0px 60px 0px;
 
         h2 {
-            font-weight: 700;
-            font-size: 40px;
-            margin-bottom: 30px;
+            text-align: left;
         }
 
         p {
-            font-size: 18px;
+            text-align: left;
         }
 
         .btn-consultation {

@@ -40,7 +40,7 @@ body {
 }
 
 #skills-section h1 {
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 700;
   color: #030303;
   margin-top: 80px;
@@ -53,8 +53,8 @@ body {
 }
 #skills-section .skills-container {
   display: grid;
-  margin-top: 90px;
-  margin-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, auto);
   width: 100%;
@@ -105,8 +105,14 @@ body {
   background-color: #552042;
 }
 
+#designer-section #designer-image {
+  text-align: center;
+}
+#designer-section img {
+  width: 450px;
+}
 #designer-section #designer-text {
-  padding-left: 100px;
+  padding-left: 20px;
 }
 #designer-section h2 {
   font-weight: 700;
@@ -114,13 +120,17 @@ body {
   color: #030303;
   padding-bottom: 34px;
   margin-top: 70px;
+  text-align: center;
 }
 #designer-section p {
   font-weight: 500;
   font-size: 18px;
   color: #7a746e;
-  text-align: left;
+  text-align: center;
   margin-bottom: 32px;
+}
+#designer-section .btn-container {
+  text-align: center;
 }
 
 #works-section {
@@ -163,13 +173,17 @@ body {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 30px;
+  text-align: center;
 }
 #contact-section p {
   font-size: 18px;
+  text-align: center;
 }
 #contact-section .btn-consultation {
-  float: right;
-  margin-top: 60px;
+  margin-top: 30px;
+}
+#contact-section #btn-container {
+  text-align: center;
 }
 
 #footer-section {
@@ -185,7 +199,14 @@ body {
 }
 
 @media (min-width: 768px) {
+  #skills-section h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
   #skills-section .skills-container {
+    margin-top: 70px;
+    margin-bottom: 100px;
     grid-template-columns: auto;
     grid-template-rows: repeat(3, auto);
   }
@@ -213,6 +234,15 @@ body {
     grid-column: 3/5;
     grid-row: -2/-1;
   }
+  #designer-section h2 {
+    font-size: 40px;
+    padding-bottom: 34px;
+    margin-top: 70px;
+  }
+  #designer-section p {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
 }
 @media (min-width: 992px) {
   .btn-consultation {
@@ -229,15 +259,11 @@ body {
   }
   #skills-section h1 {
     font-size: 55px;
-    font-weight: 700;
-    margin-top: 80px;
     margin-bottom: 25px;
   }
-  #skills-section p {
-    font-size: 18px;
-    font-weight: 500;
-  }
   #skills-section .skills-container {
+    margin-top: 90px;
+    margin-bottom: 150px;
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(2, auto);
   }
@@ -269,19 +295,21 @@ body {
     grid-row: -2/-1;
   }
   #designer-section #designer-text {
-    padding-left: 100px;
+    padding-left: 10px;
   }
   #designer-section h2 {
-    font-weight: 700;
     font-size: 40px;
     padding-bottom: 34px;
-    margin-top: 70px;
+    margin-top: 40px;
+    text-align: left;
   }
   #designer-section p {
-    font-weight: 500;
     font-size: 18px;
-    text-align: left;
     margin-bottom: 32px;
+    text-align: left;
+  }
+  #designer-section .btn-container {
+    text-align: left;
   }
   #works-section {
     margin-top: 120px;
@@ -315,12 +343,10 @@ body {
     margin: 80px 0px 60px 0px;
   }
   #contact-section h2 {
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 30px;
+    text-align: left;
   }
   #contact-section p {
-    font-size: 18px;
+    text-align: left;
   }
   #contact-section .btn-consultation {
     float: right;
