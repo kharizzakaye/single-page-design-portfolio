@@ -145,12 +145,8 @@ body {
 #works-section #gallery-section {
   margin-bottom: 60px;
 }
-#works-section .slide {
-  display: none;
+#works-section .gallery-item {
   padding: 0px;
-}
-#works-section .active {
-  display: inline-block;
 }
 #works-section .arrow {
   background-color: #030303;
@@ -325,9 +321,6 @@ body {
   #works-section .slide {
     display: none;
     padding: 0px;
-  }
-  #works-section .active {
-    display: inline-block;
   }
   #works-section .arrow {
     border-radius: 50px;

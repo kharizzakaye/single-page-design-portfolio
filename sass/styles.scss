@@ -175,12 +175,8 @@ body {
         margin-bottom: 60px;
     }
 
-    .slide {
-        display: none;
+    .gallery-item {
         padding: 0px;
-    }
-    .active {
-        display: inline-block;
     }
 
     .arrow {
@@ -414,9 +410,6 @@ body {
         .slide {
             display: none;
             padding: 0px;
-        }
-        .active {
-            display: inline-block;
         }
 
         .arrow {
